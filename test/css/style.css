@@ -1,0 +1,236 @@
+.bg-theme{
+background-color: #FFDEE9;
+background-image: linear-gradient(to left, #FFDEE9 0%, #B5FFFC 100%);
+
+
+}
+.navbar a{
+    color: black;
+}
+.nav-link {
+	color:rgb(240, 14, 14);
+}
+#brandname {
+	font-size: 20px;
+	font-weight: bold;
+    font-style: oblique;
+    color:goldenrod;
+}
+
+
+.jumbotron {
+    /* clip-path: polygon(50% 0%, 100% 0, 100% 43%, 100% 100%, 34% 75%, 88% 68%, 0 100%, 0% 43%, 0 0);
+	border-radius: 0%; */
+    
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 74% 93%, 23% 97%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 38%); */
+
+
+}
+
+#hero p,#hero h3{
+    font-family: 'Courier New';
+    color: #fff;
+    text-align: justify;
+}
+#hero {
+
+    background-image: url('Cafe /about-bg2.jpg');
+    border-radius: 0px;
+}
+#contact .col-md-6 {
+	margin-left:0;
+	padding-left:  0;
+}
+#contact input,button {
+	margin-top: 20px;
+}
+#about h1, #gallery h1, #contact h1{
+	text-align: center;
+}
+#about hr, #gallery hr, #contact hr  {
+	color:#5ee7df;
+	border:1px solid #5ee7df;
+	width: 40%;
+}
+#about span, #gallery span, #contact span, #review span {
+	color:#008CCC;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#about *{
+	text-align: justify;
+	font-family: 'Times New Roman';
+}
+#about ul {
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.gallery1{
+    display: flex;
+    width: 28%;
+    height: 250px;
+    gap: 2px;
+
+}
+
+
+.gallery1 > img{
+    width: 32%;
+    height: 250px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border: 2px solid #b490ca;
+    border-radius: 10px;
+    transition: all ease 1s;
+}
+
+
+.gallery1 > img:hover{
+    width: 100%;
+    scale: 1.2;
+}
+#footer h5{
+    margin-top: 20%;
+
+}
+#hr{
+    color:#b490ca;
+	border:1px solid #b490ca;
+	width: 60%;
+}
+#about img{
+    height: 500px;
+}
+#footer #socialicons {
+	text-align: center;
+	margin-top: 100px;
+    
+}
+#footer #socialicons li {
+	display: inline;
+}
+#footer ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#feed img{
+    width: 500px;
+    height: 500px;
+}
+textarea {
+	margin-top: 20px;
+}
+#img{
+    margin-top: 50px;
+}
+#menu{
+    width:60%;
+    /* height:15%; */
+}
+#menu span {
+	color:#008CCC;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#menu hr{
+    color:#5ee7df;
+	border:1px solid #5ee7df;
+	width: 60%;
+}
+#menu h1{
+	text-align: center;
+}
+#menu h5, #menu p{
+    color:#00ff00;
+    font-size: 22px;font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+}
+#hr2{
+    color:#5ee7df;
+	border:1px solid #5ee7df;
+	width: 40%;
+}
+
+/* review */
+
+
+/* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  } */
+  .testimonials{
+    padding: 40px 0;
+    /* background: #f1f1f1; */
+    color: black;
+    text-align: center;
+  }
+  .inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  /* .border{
+    width: 160px;
+    height: 5px;
+    /* background: #6ab04c;
+    margin: 26px auto;
+  } */
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .testimonial{
+    /* background:; */
+    padding: 30px;
+  }
+  .testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  .stars{
+    color: #b490ca;
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width:960px) {
+  .col{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media screen and (max-width:600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+  #review p{
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+  }
+  .stars :hover{
+      color:#5ee7df;
+  }
